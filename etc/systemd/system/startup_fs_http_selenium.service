@@ -4,8 +4,8 @@ After=xdg-desktop-autostart.target
 
 [Service]
 User=fs
-WorkingDirectory=/home/fs
-ExecStart=/home/fs/startup_fs_http_selenium.sh
+WorkingDirectory=/home/fs/fs-lattepanda-src/home/fs
+ExecStart=/home/fs/fs-lattepanda-src/home/fs/startup_fs_http_selenium.sh
 
 [Install]
 WantedBy=multi-user.target
