@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=root
-ExecStart=/home/fs/startup_root.sh
+ExecStart=/home/fs/fs-lattepanda-src/home/fs/startup_root.sh
 
 [Install]
 WantedBy=multi-user.target
