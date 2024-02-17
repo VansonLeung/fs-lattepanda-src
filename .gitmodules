@@ -1,0 +1,3 @@
+[submodule "home/fs/pyfirm_testcar"]
+	path = home/fs/pyfirm_testcar
+	url = https://gitlab.com/vanson1/pyfirm_testcar.git
