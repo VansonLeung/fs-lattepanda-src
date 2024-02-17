@@ -1,0 +1,10 @@
+This app was developed and tested with nodejs v6.9 and v8.9.1. Your current nodejs version: v14.21.3
+Using verbose log. This might lower performance. Add "log_verbose": false to config.json to deactivate this.
+Add new pool /
+Add new pool /chatapp
+Add new pool /callapp
+Add new pool /conferenceapp
+Add new pool /test
+Add new pool /testshared
+websockets/http listening on  { address: '0.0.0.0', family: 'IPv4', port: 12776 }
+secure websockets/https listening on  { address: '0.0.0.0', family: 'IPv4', port: 3000 }

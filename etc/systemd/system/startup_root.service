@@ -1,0 +1,11 @@
+[Unit]
+Description=Startup Script for User fs
+After=network.target
+
+[Service]
+User=root
+ExecStart=/home/fs/startup_root.sh
+
+[Install]
+WantedBy=multi-user.target
+

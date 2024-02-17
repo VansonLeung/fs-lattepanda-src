@@ -1,0 +1,11 @@
+[Unit]
+Description=Startup Script for User fs
+After=xdg-desktop-autostart.target
+
+[Service]
+User=fs
+WorkingDirectory=/home/fs
+ExecStart=/home/fs/startup_fs_http_selenium.sh
+
+[Install]
+WantedBy=multi-user.target

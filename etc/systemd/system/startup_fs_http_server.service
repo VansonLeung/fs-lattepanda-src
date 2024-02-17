@@ -1,0 +1,10 @@
+[Unit]
+Description=Startup Script for User fs
+After=network.target
+
+[Service]
+User=fs
+ExecStart=/home/fs/startup_fs_http_server.sh
+
+[Install]
+WantedBy=multi-user.target
