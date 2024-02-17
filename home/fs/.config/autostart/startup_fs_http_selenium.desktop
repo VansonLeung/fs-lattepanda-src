@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=FS Startup Script
-Exec=/home/fs/startup_fs_http_selenium.sh
+Exec=/home/fs/fs-lattepanda-src/home/fs/startup_fs_http_selenium.sh
 X-GNOME-Autostart-enabled=true
 
