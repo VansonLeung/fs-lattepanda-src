@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=fs
-ExecStart=/home/fs/startup_fs_awrtc.sh
+ExecStart=/home/fs/fs-lattepanda-src/home/fs/startup_fs_awrtc.sh
 
 [Install]
 WantedBy=multi-user.target
