@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="./bundle/apps.js"></script>
+
+</head>
+<body>
+    <div id="callapp1">
+        <p class="callapp_url">
+
+        </p>
+        <button id="request_permission">Permission</button>
+        <select id="select_video_source"></select>
+        <button id="select_video_source_refresh">Refresh Video Source</button>
+        <select id="select_video_size"></select>
+        <input type="checkbox" name="audio" class="callapp_send_audio" checked autocomplete="off"> Audio
+        <input type="checkbox" name="video" class="callapp_send_video" checked autocomplete="off"> Video
+        <input type= "text" class="callapp_address" autocomplete="off">
+        <button class="callapp_button"> Join </button>
+        <br/>
+        <input type="checkbox" name="custom_video_source_enabled" /><label>Custom video source</label> &nbsp; <input type="text" name="custom_video_source" placeholder="3840x2160p60"/>
+        <br/>
+        <div class="callapp_local_video">local video</div>
+        <br/>
+        <br/>
+        <div class="callapp_remote_video">remote video</div>
+    </div>
+<!--
+    <div id="callapp2">
+        <h1>Callapp2:</h1>
+        URL to connect:
+        <p class="callapp_url">
+
+        </p>
+        <input type="checkbox" name="audio" class="callapp_send_audio" checked autocomplete="off"> Audio
+        <input type="checkbox" name="video" class="callapp_send_video" checked autocomplete="off"> Video
+        <input type= "text" class="callapp_address" autocomplete="off">
+        <button class="callapp_button"> Start / Stop </button>
+        <div class="callapp_local_video">local video</div>
+        <div class="callapp_remote_video">remote video</div>
+    </div>
+-->
+
+
+    <script>
+
+        apps.callapp(document.querySelector("#callapp1"));
+        //apps.callapp(document.querySelector("#callapp2"));
+
+    </script>
+</body>
+</html>
