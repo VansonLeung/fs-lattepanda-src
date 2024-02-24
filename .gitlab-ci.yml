@@ -1,8 +1,0 @@
-generate_source_archive:
-  stage: build
-  script:
-    - VERSION=$(git describe --tags --abbrev=0)
-    - tar -czvf source-${VERSION}.tar.gz .
-  artifacts:
-    paths:
-      - source-${VERSION}.tar.gz
