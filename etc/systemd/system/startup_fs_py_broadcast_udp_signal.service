@@ -1,0 +1,10 @@
+[Unit]
+Description=Startup Script for User fs
+After=network.target
+
+[Service]
+User=fs
+ExecStart=/home/fs/fs-lattepanda-src/home/fs/startup_fs_py_broadcast_udp_signal.sh
+
+[Install]
+WantedBy=multi-user.target
